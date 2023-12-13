@@ -6,3 +6,4 @@ run:
 
 t:
 	uvicorn tutorial:app --reload
+
