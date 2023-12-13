@@ -3,6 +3,7 @@ from sqlalchemy.orm import relationship
 
 from .database import Base  # .( 同フォルダ )database.pyのBaseをインポート
 
+# * DBに登録するテーブルやカラムの設定を行う
 
 class User(Base):
     # テーブル名

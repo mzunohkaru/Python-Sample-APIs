@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-# * データベースとの通信を行う
+# * データベースの設定を行う
 
 # DB指定
 SQLALCHEMY_DATABASE_URL = "sqlite:///./sql_app.db"

@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+# * Pydanticモデルの設定を行う
 
 class ItemBase(BaseModel):
     title: str
