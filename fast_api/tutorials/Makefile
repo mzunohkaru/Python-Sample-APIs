@@ -7,3 +7,8 @@ run:
 t:
 	uvicorn tutorial:app --reload
 
+
+
+b:
+	uvicorn beginner:app --reload
+
