@@ -1,14 +1,15 @@
 .PHONY: setup up d b ps makefile
 
-run:
-	uvicorn main:app --reload
+item:
+	uvicorn item:app --reload
+
+ex:
+	uvicorn exsample:app --reload
+
+sample:
+	uvicorn sample:app --reload
 
 
-t:
-	uvicorn tutorial:app --reload
-
-
-
-b:
-	uvicorn beginner:app --reload
+todo:
+	uvicorn todo:app --reload
 
